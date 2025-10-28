@@ -4,4 +4,4 @@
 | QA-2 | Scalability | The system should function without a noticeable performance loss in response time with up to 5,000 concurrent users. | UC-1 |
 | QA-3 | Availability | When anybody accesses the system at any time, it should be available at least 99.5% of the time every month, including peak periods. | All |
 | QA-4 | Security | When a Lecturer posts an announcement or a student views their personal data, the system should verify and only allowed authorized individuals to complete such task | UC-1 & UC-2 |
-| QA-5 |  |  |  |
+| QA-5 | Reliability | When a student requests lecture materials, the system should consistently retrieve the correct files from the connected LMS and deliver them without errors. If the LMS is temporarily unavailable, the system notifies the user.| UC-6 |
