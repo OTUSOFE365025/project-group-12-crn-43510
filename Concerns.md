@@ -1,1 +1,5 @@
-Add list of concerns to this file
+|   ID  | Concern |
+| ----- | --------- |
+| CRN-1 | Ensuring that the user data is stored securely, preventing unauthorized access or data breaches. |
+| CRN-2 | Maintaining accurate and reliable data sources, ensuring precise responses that are specific to the user's query. |
+| CRN-3 | |
