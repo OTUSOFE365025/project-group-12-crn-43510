@@ -44,9 +44,34 @@ Certain concerns to keep in mind:
 We want to refine the entire AIDAP system.
 
 ## Step 4: Choosing design concepts
+| Design Decisions and Location | Rationale |
+| ------------ | --------- |
+| Logically structure the server using a Rich Internet Application reference architecture. | Provides an interactive UI needed for conversational interactions, and also supports multi platform access (CON-2). |
+| Structure the server using Service Application reference architecture. | Clean separation between conversational UI and backend |
+| Use a three tier deployment pattern. | Supports CON-1, CON-3, and availability QA-3. |
+| Use caching for commonly accessed data. | Helps with performance speed (QA-1) |
 
 ## Step 5: Instantiating architectural elements, allocating responsibilities and defining interfaces
+| Design Decisions and Location | Rationale |
+| ------------ | --------- |
+| Remove external data storage from the RIA architecture. | All data must be retrieved from server side services (CON-1 & CON-2). |
+| Create a module dedicated to interpreting natural language input. | Identifies intent and contextual meaning for answering questions (UC-1 & UC-2). |
+| Create data integration model. | Allows for accurate and real time data retrieval (CON-2). |
+| Remove UI Logic layer from the RIA architecture. | The AIDAP RIA UI does not need much client side business logic. |
 
 ## Step 6: Sketch views and record design decisions
 
 ## Step 7: Perform analysis of the current design and review the iteration goal and design objectives
+| Not Addressed  | Partially Addressed | Completely Addressed | Design Decisions Made During the Iteration |
+| -------------- | ------------------- | -------------------- | ------------------------------------------ |
+|  | UC-1 | | A rich internet application reference architecture was chosen |
+|  | UC-2 | | Server side modules identified |
+|  | UC-3 | | Monitoring system established |
+|  | UC-6 | | Integration layer identified |
+|  | QA-1 | | Caching and processing |
+|  | QA-2 | | Services can scale independently |
+|  | QA-3 | | Three-tier deployment helps with redundancy |
+|  | QA-4 | | API Gateway |
+|  | CON-1 | | Adapter pattern chosen |
+|  | CON-3 | | Role based access enforced |
+|  | CRN-1 | | Security strategy used |
