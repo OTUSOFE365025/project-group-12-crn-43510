@@ -33,6 +33,7 @@ We want to refine the subsystems that are related to performance, security, and 
 |Instantiate a CacheManager using token-based caching between Orchestrator and Data Sources |Reduces repeated external calls to maintain availability and improve performance (QA-3, QA-1). |
 
 ## Step 6: Sketch views and record design decisions
+<img width="1592" height="750" alt="image" src="https://github.com/user-attachments/assets/a6408fdc-1890-43de-8b1c-1c0f5e2dc95c" />
 
 ## Step 7: Perform analysis of the current design and review the iteration goal and design objectives
 | Not Addressed  | Partially Addressed | Completely Addressed | Design Decisions Made During the Iteration |
