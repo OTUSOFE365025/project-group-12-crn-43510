@@ -60,6 +60,7 @@ We want to refine the entire AIDAP system.
 | Remove UI Logic layer from the RIA architecture. | The AIDAP RIA UI does not need much client side business logic. |
 
 ## Step 6: Sketch views and record design decisions
+![System Diagram](I1-S6.png)
 
 ## Step 7: Perform analysis of the current design and review the iteration goal and design objectives
 | Not Addressed  | Partially Addressed | Completely Addressed | Design Decisions Made During the Iteration |
