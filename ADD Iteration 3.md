@@ -23,8 +23,13 @@ To support this scenario, we will refine the components that affect runtime iden
 | Deplay a persistent message queue | Ensures user queries are not lost during outages.|
 
 ## Step 6: Sketch views and record design decisions
+<img width="783" height="303" alt="image" src="https://github.com/user-attachments/assets/9ee534ff-ff75-49a1-87de-721f26d24c05" />
 
 ## Step 7: Perform analysis of the current design and review the iteration goal and design objectives
 | Not Addressed  | Partially Addressed | Completely Addressed | Design Decisions Made During the Iteration |
 | -------------- | ------------------- | -------------------- | ------------------------------------------ |
-| | | |
+| | QA-3 || Redundancy, load balancing, and message queuing increase uptime. |
+| | QA-2 ||  Horizontal replication supports more users. |
+| | | QA-5 | Degradation allows consistent file retrieval.|
+| |CON-2 | | Redundant backend helps preserve access during peak times.|
+| | |CRN-3 | System availability is supported through architectural redundancy.|
