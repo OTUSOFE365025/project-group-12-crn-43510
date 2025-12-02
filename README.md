@@ -6,6 +6,6 @@
 
 | Group Member  | Responsibility |
 | ------------- | ------------- |
-| Reid Hillis   | 3 Use Cases, 2 Quality Scenarios, Use Case Diagram  |
-| Drew Glover   | 2 Use Cases, 2 Quality Scenarios, Business Case  |
-| Ebubechukwu Agwagah  | 1 Use Case, 1 Quality Scenario, Constraints & Concerns  |
+| Reid Hillis   | Iteration 3 Steps 1-7 |
+| Drew Glover   | ATAM Parts 2 & 3 |
+| Ebubechukwu Agwagah  | ATAM Part 1  |
