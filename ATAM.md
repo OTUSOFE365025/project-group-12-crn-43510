@@ -22,6 +22,8 @@
 
 * R1 - Performance Bottlenecks in the NLU Pipeline
 
+A small increase in the processing time throughout the pipeline stages can result in the system not reaching the 2 second performance requirement
+
 * R2 - External LMS Failure Affecting User Experience
 
 * R3 - Zero Trust Authorization Increases System Complexity
