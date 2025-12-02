@@ -38,9 +38,9 @@
 
 * S1 - Natural Language Processing Pipeline
 
-* S2 - Authorization Layer (Zero Trust + RBAC)
+* S2 - Authorization Layer (Zero Trust & RBAC)
 
-* S3 - External Integration Layer + Circuit Breakers
+* S3 - External Integration Layer & Circuit Breakers
 
 **Tradeoffs**
 
