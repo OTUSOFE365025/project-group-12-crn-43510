@@ -1,17 +1,17 @@
 ## 1. **ATAM risk assessment table**
 
-| **Analysing Scenario** | **Description** |
+| **Analysing Scenario** | **P1.1** |
 |--------------------|-------------|
-| Scenario           |             |
-| Stimulus           |             |
-| Environment        |             |
-| Response           |             |
+| Scenario           | Student queries academic information during peak usage       |
+| Stimulus           | Student asks "When is my next exam?" via mobile app during peak hours            |
+| Environment        | Normal operation with up to 5,000 concurrent users (per RA7), external systems (LMS, Registration, Calendar) available             |
+| Response           | System responds within 2 seconds (RS10) with accurate, personalized data while maintaining 99.5% availability (RS11)             |
 
 | **Architecture Design** | **Sensitivity** | **Tradeoff** | **Risk** | **Non-risk** |
 |----------------------|-------------|----------|------|----------|
-|                      |             |          |      |          |
-|                      |             |          |      |          |
-|                      |             |          |      |          |
+|AD1 Cloud-native scalable microservices                      | S1, S3            | T3         | R1      |N1          |
+| AD2 Integration layer with external systems                     | S3            | T2        |R2      | N2         |
+|AD3 Multi-channel interface (mobile/web/voice)                     |             | T3         |      | N1         |
 
 
 
