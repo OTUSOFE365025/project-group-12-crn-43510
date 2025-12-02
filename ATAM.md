@@ -22,8 +22,6 @@
 
 * R1 - Performance Bottlenecks in the NLU Pipeline
 
-A small increase in the processing time throughout the pipeline stages can result in the system not reaching the 2 second performance requirement
-
 * R2 - External LMS Failure Affecting User Experience
 
 * R3 - Zero Trust Authorization Increases System Complexity
@@ -53,7 +51,7 @@ A small increase in the processing time throughout the pipeline stages can resul
 * T3 - High Availability vs System Complexity
 
 ## 3. **ATAM utility tree**
-
+<img width="810" height="515" alt="ATAM-Utility-Tree drawio" src="https://github.com/user-attachments/assets/e236e477-1b92-45c4-9ce7-88ed790817a3" />
 
 
 
