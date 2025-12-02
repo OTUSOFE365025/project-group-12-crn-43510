@@ -6,6 +6,6 @@
 
 | Group Member  | Responsibility |
 | ------------- | ------------- |
-| Reid Hillis   | Iteration 3 Steps 1-7 |
+| Reid Hillis   | Iteration 3 Steps 2-7 |
 | Drew Glover   | ATAM Parts 2 & 3 |
 | Ebubechukwu Agwagah  | ATAM Part 1  |
