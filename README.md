@@ -14,13 +14,13 @@ Phase 1 Responsibilities
 Phase 2 Responsibilities
 | Group Member  | Responsibility |
 | ------------- | ------------- |
-| Reid Hillis   | Iteration 1 Steps 1-5 & 7 |
+| Reid Hillis   | Iteration 1 Steps 2-5 & 7 |
 | Drew Glover   | Iteration 1 Step 6 & Iteration 2 Steps 2-4  |
 | Ebubechukwu Agwagah  | Iteration 2 Steps 5-7  |
 
 Phase 3 Responsibilities
 | Group Member  | Responsibility |
 | ------------- | ------------- |
-| Reid Hillis   | Iteration 3 Steps 1-7 |
+| Reid Hillis   | Iteration 3 Steps 2-7 |
 | Drew Glover   | ATAM Parts 2 & 3 |
 | Ebubechukwu Agwagah  | ATAM Part 1  |
